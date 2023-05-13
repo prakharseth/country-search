@@ -1,10 +1,11 @@
 import { FC } from "react";
 import Image from "next/image";
+import Link from "next/Link";
 interface CardsProps {}
 
 const Cards: FC<CardsProps> = ({}) => {
   return (
-    <div className="bg-[#2B3743] rounded overflow-hidden">
+    <Link  href={`/country/1`} className="bg-[#2B3743] rounded overflow-hidden">
       <Image
         src="/flags/ind.png"
         width={332}
@@ -28,7 +29,7 @@ const Cards: FC<CardsProps> = ({}) => {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

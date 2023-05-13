@@ -1,15 +1,12 @@
-import Image from "next/image";
+/** @format */
 
-import Header from "@/components/Header";
-import Main from "../components/Main/Main";
-import Info from "@/components/Info/Info";
+
+import Main from "@ui/Main";
 
 export default function Home() {
   return (
-    <div className="bg-white flex flex-col gap-9 pb-10 items-center h-">
-      <Header />
-      {/* <Main /> */}
-      <Info/>
+    <div className="flex flex-col items-center pb-10 bg-white gap-9 ">
+      <Main />
     </div>
   );
 }

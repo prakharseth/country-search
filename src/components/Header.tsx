@@ -1,11 +1,15 @@
-import { FC } from "react";
+/** @format */
+'use client';
+
+import React from "react";
+
 import { MdDarkMode } from "react-icons/Md";
 
-interface HeaderProps {}
+type Props = {};
 
-const Header: FC<HeaderProps> = ({}) => {
+export default function Header({}: Props) {
   return (
-    <div className="flex justify-between w-full p-5 bg-[#2B3743]">
+    <div className="flex justify-between w-full p-5 dark:bg-[#2B3743] dark:text-white ">
       <div className="font-extrabold text-[18px]">Where in the World?</div>
       <div className="flex items-center gap-2">
         <MdDarkMode />
@@ -13,6 +17,8 @@ const Header: FC<HeaderProps> = ({}) => {
       </div>
     </div>
   );
-};
+}
 
-export default Header;
+export function Sum() {
+  return <div className='text-black'>hello</div>;
+}
