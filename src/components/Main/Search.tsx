@@ -1,7 +1,7 @@
 /** @format */
 "use client";
 import { FC } from "react";
-import { BiSearch } from "react-icons/Bi";
+import { BiSearch } from "react-icons/bi";
 
 interface SearchProps {}
 

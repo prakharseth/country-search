@@ -1,7 +1,7 @@
 "use client";
 
 import { FC } from "react";
-import { RiArrowDropDownLine } from "react-icons/Ri";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 interface FilterProps {}
 

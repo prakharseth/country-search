@@ -1,9 +1,9 @@
 /** @format */
-'use client';
+"use client";
 
 import React from "react";
 
-import { MdDarkMode } from "react-icons/Md";
+import { MdDarkMode } from "react-icons/md";
 
 type Props = {};
 
@@ -20,5 +20,5 @@ export default function Header({}: Props) {
 }
 
 export function Sum() {
-  return <div className='text-black'>hello</div>;
+  return <div className="text-black">hello</div>;
 }

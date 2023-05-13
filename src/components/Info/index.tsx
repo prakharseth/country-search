@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { MdKeyboardBackspace } from "react-icons/Md";
+import { MdKeyboardBackspace } from "react-icons/md";
 import LabelValue from "./LabelValue";
 
 type Props = {};
