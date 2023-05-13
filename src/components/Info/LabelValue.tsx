@@ -1,4 +1,5 @@
 /** @format */
+"use client";
 
 type Props = {
   label: string;
