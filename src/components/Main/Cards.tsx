@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 interface CardsProps {}
 
+
 export default function Cards() {
   return (
     <Link href={`/country/1`} className="bg-[#2B3743] rounded overflow-hidden">
@@ -28,3 +29,8 @@ export default function Cards() {
     </Link>
   )
 }
+
+
+
+
+

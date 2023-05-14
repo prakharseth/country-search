@@ -1,0 +1,81 @@
+[{
+        "id": 1,
+        "countryname": "United States",
+        "population": 331449281,
+        "region": "North America",
+        "capital": "Washington, D.C.",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg"
+    },
+    {
+        "id": 2,
+        "countryname": "Canada",
+        "population": 38005238,
+        "region": "North America",
+        "capital": "Ottawa",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg"
+    },
+    {
+        "id": 3,
+        "countryname": "United Kingdom",
+        "population": 67948282,
+        "region": "Europe",
+        "capital": "London",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
+    },
+    {
+        "id": 4,
+        "countryname": "France",
+        "population": 65337307,
+        "region": "Europe",
+        "capital": "Paris",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+    },
+    {
+        "id": 5,
+        "countryname": "Germany",
+        "population": 83783942,
+        "region": "Europe",
+        "capital": "Berlin",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
+    },
+    {
+        "id": 6,
+        "countryname": "China",
+        "population": 1444216106,
+        "region": "Asia",
+        "capital": "Beijing",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg"
+    },
+    {
+        "id": 7,
+        "countryname": "Japan",
+        "population": 126476461,
+        "region": "Asia",
+        "capital": "Tokyo",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg"
+    },
+    {
+        "id": 8,
+        "countryname": "Brazil",
+        "population": 213993437,
+        "region": "South America",
+        "capital": "Brasília",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg"
+    },
+    {
+        "id": 9,
+        "countryname": "Mexico",
+        "population": 130262216,
+        "region": "North America",
+        "capital": "Mexico City",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg"
+    },
+    {
+        "id": 10,
+        "countryname": "Australia",
+        "population": 25788209,
+        "region": "Oceania",
+        "capital": "Canberra",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg"
+    }
+]
