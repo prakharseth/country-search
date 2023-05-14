@@ -55,8 +55,8 @@ export default function Info({}: Props) {
               </div>
               {/* Border Countries */}
               <div className=" flex flex-col gap-2 lg:flex-row lg:items-center">
-                <div className="font-medium text-xl">Border Countries:</div>
-                <div className="flex  w-full justify-between">
+                <div className="font-medium">Border Countries:</div>
+                <div className="flex w-full justify-between lg:gap-2 lg:w-fit">
                   <BtnLink CountryName="France" />
                   <BtnLink CountryName="Germany" />
                   <BtnLink CountryName="Netherlands" />
