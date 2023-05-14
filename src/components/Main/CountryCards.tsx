@@ -23,7 +23,7 @@ const CountryCards: FC<CountryCardsProps> = ({}) => {
             height={200}
             alt="Flag Image"
           />
-          <div className="flex flex-col gap-5 px-8 py-7 bg-green-200 h-full">
+          <div className="flex flex-col gap-5 px-8 py-7  h-full">
             <div className="text-xl font-semibold">{country.countryname}</div>
             <div className="flex flex-col gap-1 text-lg">
               <div>
