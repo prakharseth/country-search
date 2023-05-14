@@ -1,23 +1,26 @@
 /** @format */
 "use client";
 
+import Link from "next/link";
 import React from "react";
 
-import { MdDarkMode } from "react-icons/md";
+import { BsMoonFill } from "react-icons/bs";
 
 type Props = {};
 
 export default function Header({}: Props) {
   return (
     <div className="flex justify-between w-full p-5 dark:bg-[#2B3743] dark:text-white ">
-      <div className="font-extrabold text-[18px]">Where in the World?</div>
+      <Link href="/" className="font-semibold text-[18px]">Where in the World?</Link>
       <div className="flex items-center gap-2">
-        <MdDarkMode />
+        <BsMoonFill />
         <div>Dark Mode</div>
       </div>
     </div>
   );
 }
+// BsSunFill
+// BsMoonFill
 
 export function Sum() {
   return <div className="text-black">hello</div>;

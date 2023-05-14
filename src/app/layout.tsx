@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={clsx('flex flex-col gap-9', nunito.className)}>
+      <body className={clsx('flex flex-col gap-9 dark:bg-[#202D36]', nunito.className)}>
         <Header />
         {children}
       </body>
